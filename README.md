@@ -169,8 +169,9 @@ Open the web cockpit at **http://localhost:8000** and test the following busines
 
 ## 📂 Documentation & Evaluation Deliverables
 
-Comprehensive technical evaluation documents are available in the `docs/` folder:
+Comprehensive technical evaluation documents are available in the repository:
 
+- **[Executive 1-Page Project Report](PROJECT_REPORT.md)**: High-level executive brief, business problem, architecture, metrics, and cost economics.
 - **[System Architecture & Data Flows](docs/ARCHITECTURE.md)**: Sequence diagrams, component interactions, and data schemas.
 - **[Scalability Strategy for 100,000 Users](docs/SCALABILITY_100K_USERS.md)**: Stateless microservices, WebRTC/SIP gateways, Kafka/Redis queues, Milvus/Pinecone sharding, and Kubernetes HPA.
 - **[Security, Compliance & Cost Analysis](docs/SECURITY_AND_COST_ANALYSIS.md)**: TLS 1.3, PII redaction, GDPR/HIPAA compliance, unit economics (7.4¢/call), and 100k-user cost modeling.
