@@ -1,0 +1,127 @@
+[
+  {
+    "id": "PROD-001",
+    "name": "ThinkEnterprise Carbon X1 Gen 12",
+    "category": "Ultraportable Enterprise Laptop",
+    "target_audience": "Executives, consultants, traveling business professionals",
+    "price": 1899,
+    "currency": "USD",
+    "specs": {
+      "processor": "Intel Core Ultra 7 155H (16 cores, up to 4.8 GHz)",
+      "ram": "32GB LPDDR5X 7500MHz",
+      "storage": "1TB PCIe Gen4 NVMe SSD",
+      "display": "14-inch 2.8K OLED (2880x1800) 120Hz, 400 nits, Anti-glare",
+      "battery": "Up to 15 hours battery life with Rapid Charge (80% in 60 mins)",
+      "weight": "1.09 kg (2.42 lbs)",
+      "security": "dTPM 2.0, Fingerprint reader, IR camera with privacy shutter"
+    },
+    "key_benefits": "Ultra-lightweight carbon fiber chassis, military-grade MIL-STD-810H durability, all-day battery, enterprise fleet management.",
+    "ideal_budget_range": "$1,700 - $2,200",
+    "warranty": "3-Year On-site Premier Support with Next Business Day turnaround",
+    "availability": "In Stock (Ships in 24 hours)",
+    "qualifying_prompts": [
+      "Is portability and weight under 1.1kg crucial for your daily work?",
+      "Do you require built-in vPro security and fleet management for corporate deployment?"
+    ]
+  },
+  {
+    "id": "PROD-002",
+    "name": "Precision Workstation 7780 Studio",
+    "category": "Heavy-Duty Engineering & AI Workstation",
+    "target_audience": "Data scientists, 3D CAD engineers, video editors, AI researchers",
+    "price": 3299,
+    "currency": "USD",
+    "specs": {
+      "processor": "Intel Core i9-14900HX (24 cores, up to 5.8 GHz)",
+      "ram": "64GB DDR5 5600MHz (expandable up to 128GB ECC)",
+      "storage": "2TB NVMe Gen4 SSD (Dual M.2 expansion slots available)",
+      "display": "17.3-inch 4K UHD (3840x2160) 120Hz 100% DCI-P3 500 nits",
+      "gpu": "NVIDIA RTX 4000 Ada Generation (12GB GDDR6 VRAM)",
+      "cooling": "Dual vapor chamber vapor-lock thermal system",
+      "weight": "3.02 kg (6.65 lbs)"
+    },
+    "key_benefits": "Unmatched computational power for deep learning model training, AutoCAD/SolidWorks certified, ISV certified stability.",
+    "ideal_budget_range": "$3,000 - $4,500",
+    "warranty": "3-Year ProSupport Plus with 24/7 dedicated engineering support",
+    "availability": "In Stock (3-5 business days delivery)",
+    "qualifying_prompts": [
+      "Are you running intensive CAD software, 3D simulations, or local AI fine-tuning?",
+      "Do you need ISV certification for your workflow applications?"
+    ]
+  },
+  {
+    "id": "PROD-003",
+    "name": "ProBook Swift 15 Business",
+    "category": "Mid-tier Corporate Workhorse",
+    "target_audience": "Finance teams, operations managers, remote office staff, small-to-mid businesses",
+    "price": 999,
+    "currency": "USD",
+    "specs": {
+      "processor": "AMD Ryzen 7 7730U (8 cores, 16 threads, up to 4.5 GHz)",
+      "ram": "16GB DDR4 3200MHz (upgradable to 32GB)",
+      "storage": "512GB PCIe NVMe SSD",
+      "display": "15.6-inch FHD (1920x1080) IPS, Anti-glare, 300 nits",
+      "battery": "Up to 11 hours with Fast Charge",
+      "ports": "2x USB-C, 2x USB-A 3.2, HDMI 2.0, RJ-45 Gigabit Ethernet, SD Card Reader",
+      "weight": "1.74 kg (3.83 lbs)"
+    },
+    "key_benefits": "Exceptional price-to-performance ratio, extensive I/O ports with native ethernet, spill-resistant keyboard, 10-key numeric pad.",
+    "ideal_budget_range": "$900 - $1,300",
+    "warranty": "2-Year Commercial Warranty with accidental damage protection add-on",
+    "availability": "In Stock (Immediate dispatch)",
+    "qualifying_prompts": [
+      "Is your budget under $1,200 per machine?",
+      "Do you need full numeric keypad for spreadsheet-intensive accounting tasks?"
+    ]
+  },
+  {
+    "id": "PROD-004",
+    "name": "ApexBook Developer Pro 16",
+    "category": "Software Developer & Creator Flagship",
+    "target_audience": "Full-stack software engineers, DevOps, mobile app creators, UI/UX designers",
+    "price": 2499,
+    "currency": "USD",
+    "specs": {
+      "processor": "Apple M3 Max / ARM 16-Core High Performance",
+      "ram": "36GB Unified Memory (300GB/s bandwidth)",
+      "storage": "1TB High-Speed SSD",
+      "display": "16.2-inch Liquid Retina XDR (3456x2234) ProMotion 120Hz 1600 nits peak",
+      "battery": "Up to 22 hours real-world battery life",
+      "ports": "3x Thunderbolt 4, HDMI, SDXC slot, MagSafe 3 charging",
+      "weight": "2.14 kg (4.7 lbs)"
+    },
+    "key_benefits": "Industry-leading thermal efficiency (whisper quiet under Docker/Kubernetes loads), 22-hour battery life, studio quality audio and mic array.",
+    "ideal_budget_range": "$2,200 - $3,000",
+    "warranty": "3-Year Enterprise Care with express hardware swap",
+    "availability": "In Stock (Ships in 48 hours)",
+    "qualifying_prompts": [
+      "Do you prioritize long battery life and silent operation while running local container clusters?",
+      "Are your engineers building iOS/macOS applications or running extensive local build pipelines?"
+    ]
+  },
+  {
+    "id": "PROD-005",
+    "name": "Fortive Fluke Industrial Connect 850",
+    "category": "Rugged Industrial & Field Diagnostics",
+    "target_audience": "Field service technicians, factory maintenance engineers, industrial automation leads",
+    "price": 2199,
+    "currency": "USD",
+    "specs": {
+      "processor": "Intel Core i5-1345U vPro industrial grade",
+      "ram": "16GB LPDDR5 ruggedized",
+      "storage": "512GB encrypted shock-mounted NVMe",
+      "display": "13.3-inch Sunlight-readable 1000 nits Glove-touch touchscreen",
+      "durability": "IP65 water/dust resistant, 6-foot drop certified, ATEX Zone 2 explosive atmosphere certified",
+      "battery": "Dual hot-swappable batteries (24-hour non-stop uptime)",
+      "weight": "1.95 kg (4.3 lbs)"
+    },
+    "key_benefits": "Operates from -20°C to +60°C, direct RS-232 serial and CAN bus connectivity, integrated thermal imaging camera option.",
+    "ideal_budget_range": "$2,000 - $2,800",
+    "warranty": "5-Year Rugged No-Fault Complete Shield Warranty",
+    "availability": "In Stock (7-10 business days for calibrated sensor models)",
+    "qualifying_prompts": [
+      "Will the device be deployed in extreme factory floor, oil & gas, or dusty outdoor environments?",
+      "Do you require hot-swappable batteries for uninterrupted shift handovers?"
+    ]
+  }
+]
