@@ -56,10 +56,15 @@ class LeadQualifier:
 
         # 1. Extract Name
         if not lead.get("customer_name"):
+            name_stopwords = {"interested", "looking", "calling", "here", "ready", "trying", "in", "a", "the", "an", "going", "wondering", "asking"}
             for pat in self.NAME_PATTERNS:
-                match = re.search(pat, text, re.IGNORECASE)
-                if match:
-                    lead["customer_name"] = match.group(1).strip()
+                for match in re.finditer(pat, text, re.IGNORECASE):
+                    candidate = match.group(1).strip()
+                    first_word = candidate.split()[0].lower()
+                    if first_word not in name_stopwords and len(candidate) > 2:
+                        lead["customer_name"] = candidate
+                        break
+                if lead.get("customer_name"):
                     break
 
         # 2. Extract Email
